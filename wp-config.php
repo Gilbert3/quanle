@@ -24,7 +24,7 @@ define('DB_USER', 'zhangquanle');
 define('DB_PASSWORD', 'zql12345qwert');
 
 /** MySQL主机 */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'zhangquanle.com');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
