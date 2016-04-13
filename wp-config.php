@@ -24,7 +24,7 @@ define('DB_USER', 'root');
 define('DB_PASSWORD', 'SAIL1208set');
 
 /** MySQL主机 */
-define('DB_HOST', '192.168.0.2');
+define('DB_HOST', '123.56.253.53');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
