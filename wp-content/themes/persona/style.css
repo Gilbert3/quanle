@@ -1,0 +1,15 @@
+/*
+Theme Name: Persona Theme
+Theme URI: http://www.liushichao.cn/
+Description: Persona是一个响应式Ajax主题，你可以应用在博客或小型企业网站，响应式的设置让他在任何设备上看起来都很漂亮您可以在后台选择多个布局和自定义配色，使您的网站脱颖而出。另一个独特的功能是前端编辑，你可以在网页中直接拖拽板块移动位置，或者删除文章、编辑标题，而不用去后台.
+Author: Natko Hasić
+Hanization:Liushichao
+Author URI: http://www.natko.com
+Version: 1.4.c (liushichao.cn)
+License: General Public License
+License URI: license.txt
+Tags: dark, light, white, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, post-formats, theme-options, translation-ready
+*/
+
+@import url("style/style.css");
+
