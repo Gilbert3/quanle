@@ -39,6 +39,10 @@ $keywords = single_tag_title('', false);
 <link href="<?php bloginfo('template_url'); ?>/css/tip-twitter/tip-twitter.css?ver=1.2" rel="stylesheet">
 <link href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css?ver=4.1.0" rel="stylesheet">
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/tomorrow.css">
+<link rel="apple-touch-icon" href="<?php bloginfo('template_url'); ?>/touch-icon-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('template_url'); ?>/touch-icon-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('template_url'); ?>/touch-icon-iphone4.png" />
+<link rel="icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
 <script src="<?php bloginfo('template_url'); ?>/scripts/highlight.pack.js"></script>
 <?php wp_head(); ?>
 
