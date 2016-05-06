@@ -1039,9 +1039,9 @@ aside[id*="zan_login"] {
 
 nav.navbar-inverse {
   min-height: none;
-	color: white;
+  color: white;
   background-color: @zan-inverse;
-	border: none;
+  border: none;
   .zan-border-radius;
   .navbar-nav {
     a {
@@ -1438,8 +1438,8 @@ a[title*="幻灯片"] {
 #zan-gotop {
   display: none;
   position: fixed;
-  bottom: 150px;
-  right: 50px;
+  bottom: 20px;
+  right: 20px;
   top: auto;
   cursor: pointer;
   z-index: 9999;
@@ -1447,11 +1447,10 @@ a[title*="幻灯片"] {
   .zan-transition;
   .gotop {
     position: relative;
-    width: 36px;
-    height: 50px;
-    line-height: 50px;
+    width: 23px;
+    height: 30px;
+    line-height: 30px;
     background-color: @zan-inverse;
-    margin-bottom: 5px;
     &:hover {
       opacity: 0.8;
     }
@@ -1462,16 +1461,16 @@ a[title*="幻灯片"] {
       pointer-events: none;
     }
     &::before {
-      border-right: 10px solid @zan-inverse;
-      border-top: 25px solid transparent;
-      border-bottom: 25px solid transparent;
-      left: -10px;
+      border-right: 5px solid @zan-inverse;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      left: -5px;
     }
     &::after {
-      border-left: 10px solid @zan-inverse;
-      border-top: 25px solid transparent;
-      border-bottom: 25px solid transparent;
-      right: -10px;
+      border-left: 5px solid @zan-inverse;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      right: -5px;
     }
     .fa {
       font-size: 18px;
