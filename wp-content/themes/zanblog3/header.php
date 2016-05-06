@@ -66,6 +66,8 @@
 <meta name="keywords" content="<?php echo $keywords ?>" />
 <meta name="description" content="<?php echo $description?>" />
 <meta charset="utf-8">
+<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/touch-icon-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/touch-icon-ipad.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
