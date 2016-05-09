@@ -25,10 +25,10 @@ var _hmt = _hmt || [];
     <ul id="jump" class="visible-lg">
         <li><a id="share" title="意见反馈" href="mailto:setsaille@gmail.com" target="_blank"><i class="fa fa-comments-o"></i></a></li>
         <li>
-          <a id="weixin" title="微信公众号" href="javascript:void(0)">
-            <i class="fa fa-wechat"></i><div id="EWM"><img src="<?php echo get_template_directory_uri(); ?>/images/weixin_code.jpg" alt="二维码" /></div>
-          </a>
-        </li>
+        <a id="weixin" title="微信公众号" href="javascript:void(0)">
+          <i class="fa fa-wechat"></i><div id="EWM"><img src="<?php echo get_template_directory_uri(); ?>/images/weixin_code.jpg" alt="二维码" /></div>
+        </a>
+      </li>
         <li><a id="top" href="#top" title="返回顶部" style="display:none;"><i class="fa fa-arrow-circle-up"></i></a></li>
     </ul>
 </footer>
