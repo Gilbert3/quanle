@@ -1,4 +1,6 @@
-<!DOCTYPE html><html><head>
+<!DOCTYPE html>
+<html>
+<head>
     <title><?php wp_title( '|', true, 'right' ); ?></title>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,6 +28,9 @@
     <meta name="description" content="<?php description();?>">
     <meta name="keywords" content="<?php keywords();?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="apple-touch-icon" href="<?php bloginfo('template_url'); ?>/touch-icon-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('template_url'); ?>/touch-icon-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('template_url'); ?>/touch-icon-iphone4.png" />
     <?php if(is_404()){ ?>
         <meta http-equiv='refresh' content=5;URL="<?php bloginfo('url'); ?>">
     <?php } ?>
