@@ -69,7 +69,7 @@ switch (of_get_option('background_mode')) {
 				echo $site_logo;
 				if ( !empty( $site_logo ) ) { ?>
 					<a class="brand brand-image" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-						<img src="<?php echo $site_logo; ?>" width="200px" height="50px" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+						<img src="<?php echo $site_logo; ?>" width="70px" height="70px" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 						<h1 class="hidden-xs"><?php if(of_get_option('show_blogdescription')){ ?>
 							<small><?php bloginfo( 'description' ); ?></small>
 							<?php } ?>
