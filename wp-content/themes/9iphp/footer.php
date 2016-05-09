@@ -2,9 +2,10 @@
 </div>
 <footer id="body-footer">
     <div  class="container clearfix">
-        Copyright &nbsp;&nbsp; ©2015&nbsp;&nbsp;
+
+        Copyright ©2015 
       <a href="http://zhangquanle.com/"  target="_blank"><?php echo stripslashes( get_option( 'zan_footer' ) ); ?></a> 
-     &nbsp;&nbsp; 版权所有 &nbsp;&nbsp;
+     版权所有 
       <a href="http://www.miitbeian.gov.cn/"  target="_blank">京ICP备14056998号</a>
           <!--统计代码开始-->
           <?php $analytics = get_option( 'zan_analytics' );if ( $analytics != "" ) : ?>
