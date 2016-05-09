@@ -10,11 +10,11 @@ get_header(); ?>
             </div>
 		<![endif]-->
 		<?php if($layout == 'left_side'){ ?>
-		<aside id="side-bar" class="col-md-4">
+		<aside id="side-bar" class="col-md-3">
 				<?php dynamic_sidebar( 'sidebar_home'); ?>
 		</aside>
 		<?php } ?>
-        <section class='<?php echo ($layout == 'single') ? 'col-md-12' : 'col-md-8'; ?>' >
+        <section class='<?php echo ($layout == 'single') ? 'col-md-12' : 'col-md-9'; ?>' >
 			<!--首页幻灯片-->
 			<?php
 				if(is_home()){

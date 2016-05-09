@@ -6,11 +6,11 @@ $layout = of_get_option('side_bar');
 $layout = (empty($layout)) ? 'right_side' : $layout;
 get_header(); ?>
 	<?php if($layout == 'left_side'){ ?>
-		<aside id="side-bar" class="col-md-4">
+		<aside id="side-bar" class="col-md-3">
 				<?php dynamic_sidebar( 'sidebar_single'); ?>
 		</aside>
 	<?php } ?>
-	<section class='<?php echo ($layout == 'single') ? 'col-md-12' : 'col-md-8'; ?>' >
+	<section class='<?php echo ($layout == 'single') ? 'col-md-12' : 'col-md-9'; ?>' >
 
 		<?php while ( have_posts() ) : the_post(); ?>
 			<article class="well clearfix page" id="post">

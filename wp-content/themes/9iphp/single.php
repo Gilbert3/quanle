@@ -4,11 +4,11 @@
 
 	get_header();
 	if($layout == 'left_side'){ ?>
-		<aside id="side-bar" class="col-md-4">
+		<aside id="side-bar" class="col-md-3">
 			<?php dynamic_sidebar( 'sidebar_single'); ?>
 		</aside>
 	<?php } ?>
-	<section class='well <?php echo ($layout == 'single') ? 'col-md-12' : 'col-md-8'; ?>' >
+	<section class='well <?php echo ($layout == 'single') ? 'col-md-12' : 'col-md-9'; ?>' >
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<?php specs_set_post_views(get_the_ID()); ?>
 		<?php get_template_part( 'inc/post-format/single', get_post_format() ); ?>
