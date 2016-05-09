@@ -82,6 +82,11 @@ define('WP_ZH_CN_ICP_NUM', true);
 /** WordPress目录的绝对路径。 */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
+/*权限设置*/
+define("FS_METHOD", "direct");
+define("FS_CHMOD_DIR", 0777);
+define("FS_CHMOD_FILE", 0777);
 
 /** 设置WordPress变量和包含文件。 */
 require_once(ABSPATH . 'wp-settings.php');
+
