@@ -214,6 +214,7 @@ function specs_theme_scripts() {
     if(!is_admin()){
         $dir = get_template_directory_uri();
         wp_enqueue_script( 'jquerylib', $dir . '/js/jquery.min.js' , array(), '1.11.0');
+        wp_enqueue_script( 'jquerymigrate', $dir . '/js/jquery-migrate-1.2.1.js' , array(), '1.2.1');
         wp_enqueue_script( 'bootstrap', $dir . '/inc/bootstrap-3.2.0/js/bootstrap.min.js', array(), '3.2.0');
 		wp_enqueue_script( 'lazyload', $dir . '/js/jquery.lazyload.js', array(), '1.19');
 		wp_enqueue_script( 'magnific-popup', $dir . '/inc/magnific/jquery.magnific-popup.js', array(), '0.9.9');

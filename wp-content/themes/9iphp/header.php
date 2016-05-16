@@ -41,7 +41,7 @@
       <script src="<?php echo get_template_directory_uri(); ?>/js/respond.min.js"></script>
     <![endif]-->
 	<?php wp_head(); ?>
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery-migrate-1.2.1.js"></script>
+    
 </head>
 <body>
 <?php
