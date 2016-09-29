@@ -281,8 +281,9 @@ class SMTP
             //     STREAM_CLIENT_CONNECT,
             //     $socket_context
             // );
-            // 
+            //  
             $this->smtp_conn = fsockopen($host, $port, $errno, $errstr);
+            
         } else {
             //Fall back to fsockopen which should work in more places, but is missing some features
             $this->edebug(
