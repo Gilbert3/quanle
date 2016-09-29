@@ -3075,7 +3075,7 @@ function wp_ajax_update_plugin() {
 	global $wp_filesystem;
 
 	$plugin = urldecode( $_POST['plugin'] );
-
+	$plugin = plugin_basename( sanitize_text_field( wp_unslash( $_POST['plugin'] ) ) );
 	$status = array(
 		'update'     => 'plugin',
 		'plugin'     => $plugin,
@@ -3121,6 +3121,7 @@ function wp_ajax_update_plugin() {
 		 */
 		if ( $plugin_update_data === true ) {
 			$status['error'] = __( 'Plugin update failed.' );
+			
  			wp_send_json_error( $status );
 		}
 
