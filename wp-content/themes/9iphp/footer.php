@@ -3,7 +3,7 @@
 <footer id="body-footer">
     <div  class="container clearfix">
 
-        Copyright ©2015 
+        Copyright ©2015 -2017
       <a href="http://zhangquanle.com/"  target="_blank"><?php echo stripslashes( get_option( 'zan_footer' ) ); ?></a> 
      版权所有 
       <a href="http://www.miitbeian.gov.cn/"  target="_blank">京ICP备14056998号</a>
