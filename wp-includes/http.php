@@ -530,7 +530,8 @@ function wp_http_validate_url( $url ) {
 	$parsed_home = @parse_url( get_option( 'home' ) );
 
 	if ( isset( $parsed_home['host'] ) ) {
-		$same_host = strtolower( $parsed_home['host'] ) === strtolower( $parsed_url['host'] );
+		// $same_host = strtolower( $parsed_home['host'] ) === strtolower( $parsed_url['host'] );
+		$same_host = (  strtolower( $parsed_home['host'] ) === strtolower( $parsed_url['host'] ) || 'localhost' == strtolower($parsed_url['host']));
 	} else {
 		$same_host = false;
 	}
@@ -546,7 +547,7 @@ function wp_http_validate_url( $url ) {
 		}
 		if ( $ip ) {
 			$parts = array_map( 'intval', explode( '.', $ip ) );
-			if ( 127 === $parts[0] || 10 === $parts[0] || 0 === $parts[0]
+			if ( 127 === $parts[0] || 10 === $parts[0] || 0 === $parts[0] || 0 === $parts[0]
 				|| ( 172 === $parts[0] && 16 <= $parts[1] && 31 >= $parts[1] )
 				|| ( 192 === $parts[0] && 168 === $parts[1] )
 			) {
