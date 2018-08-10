@@ -3,7 +3,7 @@ Contributors: denishua
 Donate link: https://me.alipay.com/denishua
 Tags: WPJAM,CDN,七牛
 Requires at least: 3.0
-Tested up to: 4.4
+Tested up to: 4.7
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,14 +14,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 七牛支持传统 CDN 的镜像存储，对于很多 WordPress 站点来说，有了这个功能，就无需将原来的图片上传到七牛的服务器上，只需在 WordPress 站点做些简单的修改，就可以使用七牛的 CDN 服务了，真正一键实现 WordPress 博客静态文件 CDN 加速。
 
-详细介绍： http://blog.wpjam.com/project/wpjam-qiniutek/
+详细介绍： <a href="http://blog.wpjam.com/project/wpjam-qiniutek/">http://blog.wpjam.com/project/wpjam-qiniutek/</a>
 
 使用文档： http://wpjam.com/go/qiniuguide
 
-QQ 群：106839672
+使用上有问题，请加入<a href="https://wx.xiaomiquan.com/mweb/views/joingroup/join_group.html?group_id=4222114248">WordPress小密圈</a >
 
 七牛购买流量9折优惠码：d706b222，在充值界面使用，立刻优惠，详细用法： http://blog.wpjam.com/m/how-to-use-qiniu-coupon/
 
+安装本插件<strong>1.4.5及以上版本</strong>，请先安装并激活<a href="https://wordpress.org/plugins/wpjam-basic/">WPJAM BASIC</a>插件。
+如果是使用<strong>1.4.5以下版本</strong>，<a href="https://wordpress.org/plugins/wpjam-basic/">WPJAM BASIC</a>插件已包含七牛插件，如果启用WPJAM BASIC插件，请先停用插件。
 
 == Installation ==
 
@@ -34,6 +36,10 @@ QQ 群：106839672
 1. 七牛镜像存储设置
 
 == Changelog ==
+
+= 1.4.3.1 =
+
+* 解决与最新版<a href="https://wordpress.org/plugins/wpjam-basic/">WPJAM BASIC</a>插件冲突问题
 
 = 1.4.3 =
 
